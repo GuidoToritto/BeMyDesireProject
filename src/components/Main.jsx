@@ -205,10 +205,10 @@ export const Main = () => {
                   {cocktails[openImageIndex].strDrink}
                 </p>
                 <p className="cocktail-ingredients">
-                  Ingredients: {cocktails[openImageIndex].strIngredients},
+                  Ingredients: {cocktails[openImageIndex].strIngredients}
                   {cocktails[openImageIndex].strIngredient2},{" "}
                   {cocktails[openImageIndex].strIngredient3},{" "}
-                  {cocktails[openImageIndex].strIngredient4}.
+                  {cocktails[openImageIndex].strIngredient4}
                 </p>
                 <p className="cocktail-instructions">
                   Instructions: {cocktails[openImageIndex].strInstructions}
